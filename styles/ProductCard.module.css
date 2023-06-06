@@ -1,0 +1,20 @@
+.card {
+  /* background: #ffd608; */
+  width: 220px;
+  height: 300px;
+  margin: 10px;
+  text-align: center;
+}
+.card_title {
+  font-size: 21px;
+  font-weight: bold;
+  color: #c82a18;
+}
+.card_price {
+  font-size: 18px;
+  font-weight: bold;
+  color: #666;
+}
+.card_footer {
+  color: #c82a18;
+}

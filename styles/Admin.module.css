@@ -1,0 +1,54 @@
+.cont {
+  display: flex;
+  flex-wrap: wrap;
+}
+.table {
+  width: 100%;
+  border-collapse: separate;
+  text-align: left;
+}
+@media screen and (min-width: 541px) {
+  .cont {
+    padding: 30px;
+  }
+  .table {
+    border-spacing: 20px;
+  }
+}
+@media screen and (max-width: 540px) {
+  .cont {
+    padding: 5px;
+  }
+  .table {
+    border-spacing: 1px;
+  }
+}
+.item {
+  flex: 50%;
+}
+.buttonN {
+  background-color: teal;
+  border: none;
+  color: white;
+  padding: 5px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.buttonD {
+  background-color: crimson;
+  border: none;
+  color: white;
+  padding: 5px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.buttonAdd {
+  margin-left: 10px;
+  background-color: rgb(184, 124, 3);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-weight: 500;
+  cursor: pointer;
+  padding: 5px 10px;
+}
