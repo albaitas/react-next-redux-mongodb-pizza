@@ -36,3 +36,6 @@ Install dependencies:
 Runs the app in the development mode:
 
 **`npm run dev`**
+
+username: admin
+password: admin
